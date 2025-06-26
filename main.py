@@ -11,7 +11,8 @@ resultado = None
 # Mostrar una gran imagen en la parte superior.
 st.image('./Media/perfect_roommate.png', use_container_width=True)
 
-st.markdown(f'<div style="text-align: right;">By Felo</div>', unsafe_allow_html=True)
+st.markdown(f'<div style="text-align: right;"><a href="https://www.analista-profesional.com" target="_blank">By Felo</a></div>', unsafe_allow_html=True)
+
 # Insertar un espacio vertical de 60px
 st.markdown(f'<div style="margin-top: 60px;"></div>', unsafe_allow_html=True)
 
