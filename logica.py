@@ -5,6 +5,8 @@ import pandas as pd
 import sklearn
 from sklearn.preprocessing import OneHotEncoder
 
+print(f"La versión de scikit-learn instalada es: {sklearn.__version__}")
+
 # 2. CARGA DE DATOS
 df = pd.read_csv('dataset_inquilinos.csv', index_col = 'id_inquilino')
 

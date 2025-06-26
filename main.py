@@ -11,9 +11,9 @@ resultado = None
 # Mostrar una gran imagen en la parte superior.
 st.image('./Media/portada.png', use_column_width=True)
 
-st.markdown('<div style="text-align: right;">By Felo</div>', unsafe_allow_html=True)
+st.markdown(f'<div style="text-align: right;">By Felo</div>', unsafe_allow_html=True)
 # Insertar un espacio vertical de 60px
-st.markdown('<div style="margin-top: 60px;"></div>', unsafe_allow_html=True)
+st.markdown(f'<div style="margin-top: 60px;"></div>', unsafe_allow_html=True)
 
 # Configurar el sidebar con inputs y un botón.
 with st.sidebar:
