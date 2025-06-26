@@ -2,6 +2,7 @@
 # 1. SETUP
 import numpy as np
 import pandas as pd
+import sklearn
 from sklearn.preprocessing import OneHotEncoder
 
 # 2. CARGA DE DATOS
